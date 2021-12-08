@@ -1,0 +1,111 @@
+/* 992 px pour les écrans d’ordinateurs
+    768 px pour les tablettes
+    tout ce qui est en dessous de 768 pour les téléphones portables.
+*/
+
+
+
+/* Reset CSS et définition des polices */
+
+
+/* box-sizing est appliqué à tous les éléments
+    Border-box : les largeur et hauteur spécifiées sont celles de l'élément dans son ensemble,
+    en conséquence les dimensions du padding ou des bordures viennent diminuer les dimensions du contenu.
+*/
+
+*{
+    box-sizing: border-box;
+    color: black;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: medium;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/*  
+main{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+@media screen and (max-width: 991px){
+    main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    main{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+*/
+
+/* Header */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 10rem 3rem 20rem;
+}
+
+header h1{
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+/* 
+#nom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+*/
+
+
+header img{
+    height: 10rem;
+}
+
+
+/* Main */
+
+main{
+    padding: 0rem 3rem 0rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+#section1{
+    width: 70%;
+}
+
+#section1 h2{
+    text-transform: uppercase;
+    border-bottom: solid grey 0.5rem;
+    padding-bottom: 1rem;
+}
+
+#section2{
+    width: 30%;
+}
+
+#section2 h2{
+    text-transform: uppercase;
+}
+
