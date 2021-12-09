@@ -13,6 +13,9 @@
     en conséquence les dimensions du padding ou des bordures viennent diminuer les dimensions du contenu.
 */
 
+html{
+    font-size:16px;
+}
 
 *{
     box-sizing: border-box;
@@ -23,9 +26,6 @@
     letter-spacing: 0rem;
 }
 
-body{
-    font-size: medium;
-}
 
 /* Pour les polices, informations qui viennent de canva
 
