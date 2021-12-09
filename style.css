@@ -103,10 +103,18 @@ header p{
     align-items: center;
 }
 
-
+header span{
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
 
 header img{
-    height: 10rem;
+    width: 100%;
 }
 
 
