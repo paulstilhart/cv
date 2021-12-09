@@ -13,25 +13,46 @@
     en conséquence les dimensions du padding ou des bordures viennent diminuer les dimensions du contenu.
 */
 
+
 *{
     box-sizing: border-box;
     color: black;
     margin:0;
     padding:0;
-    font-family: sans-serif;
+    font-family: "Raleway",sans-serif;
+    letter-spacing: 0rem;
 }
 
 body{
     font-size: medium;
 }
 
+/* Pour les polices, informations qui viennent de canva
+
+h1 raleway heavy 23,3 gras
+ingénieur devops en raleway 11,7 normal
+p raleway normal taille 8
+
+h2 raleway heavy 12 gras
+h3 raleway taille 10 gras
+
+*/
+
+
 h1{
-    font-size: 4rem;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 h2{
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-style: bold;
+    font-weight: 800;
+}
+
+h3{
+    font-size: 1rem;
 }
 
 /*  
@@ -61,20 +82,27 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 5rem 10rem 3rem 20rem;
+    align-items: center;
+    padding: 2rem 8rem 5rem 8rem;
 }
 
 header h1{
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     text-transform: uppercase;
 }
-/* 
+
+header p{
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
 #nom{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
-*/
+
 
 
 header img{
@@ -91,21 +119,52 @@ main{
     gap: 5rem;
 }
 
-#section1{
-    width: 70%;
+.trait{
+    margin: 1rem 0rem 1rem 0rem;
+    width: 4rem;
+    height: 0.2rem;
+    color: grey;
+    border: none;
+    background-color:grey;
+    border: 0 none;
 }
 
-#section1 h2{
-    text-transform: uppercase;
-    border-bottom: solid grey 0.5rem;
-    padding-bottom: 1rem;
+main h3{
+    padding-bottom: 0.5rem;
 }
+
+main p{
+    font-weight: 300;
+    line-height : 1.2rem;
+    font-size:1rem;
+}
+
+main ul{
+    font-weight: 300;
+    margin: auto;
+}
+
+main ul li  {
+    list-style-position:inside
+}
+
+#section1{
+    width: 60%;
+}
+
+
+article{
+    padding-bottom:2rem;
+}
+
+
+
+
 
 #section2{
-    width: 30%;
+    width: 40%;
 }
 
-#section2 h2{
-    text-transform: uppercase;
-}
+
+
 
